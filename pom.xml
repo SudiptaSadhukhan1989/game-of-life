@@ -41,7 +41,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
-                    <skip>true</skip>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <!--<skip>true</skip>-->
                 </configuration>
                 <executions>
                     <execution>
